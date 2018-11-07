@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>244f53c3-333e-4021-9f00-42b3fd97001c</Guid>
+    <Name>After Max Level Advancement</Name>
+    <Description>Earn few ability points at Colonel rank for completing missions.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>AfterMaxLevelAdvancement</AssemblyName>
+    <RootNamespace>AfterMaxLevelAdvancement</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Config\XComEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEngine.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGame.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComAfterMaxLevelAdvancement.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="Src\AfterMaxLevelAdvancement\Classes\UIScreenListener_AfterMaxLevelAdvancement.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\AfterMaxLevelAdvancement\Classes\X2DownloadableContentInfo_AfterMaxLevelAdvancement.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Config" />
+    <Folder Include="Src" />
+    <Folder Include="Src\AfterMaxLevelAdvancement" />
+    <Folder Include="Src\AfterMaxLevelAdvancement\Classes" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
