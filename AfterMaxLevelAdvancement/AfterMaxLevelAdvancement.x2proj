@@ -21,6 +21,9 @@
     <Content Include="Config\XComAfterMaxLevelAdvancement.ini">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModPreview.jpg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ReadMe.txt" />
     <Content Include="Src\AfterMaxLevelAdvancement\Classes\UIScreenListener_AfterMaxLevelAdvancement.uc">
       <SubType>Content</SubType>
